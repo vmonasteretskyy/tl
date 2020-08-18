@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo.svg" alt="logo"></a>
+        <div class="nav-wrapper">
+            <nav class="row no-gutters">
+                <ul class="phones-list">
+                    <li>
+                        <span>068 684 44 84</span>
+                        <ul>
+                            <li><a href="tel:0686844484">068 684 44 84 <span>Хмельницький</span></a></li>
+                            <li><a href="tel:0686844484">068 684 44 84 <span>Львів</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="menusect">
+                    <img src="img/close.svg" alt="close" class="closemenu">
+                    <img src="img/gear-160.svg" alt="" class="menuanim2">
+                    <img src="img/gear-160.svg" alt="" class="menuanim3">
+                    <ul class="menu" id="menu">
+                        <li><a href="team.html">Команда</a></li>
+                        <li><a href="#benefits" class="anchor">Переваги</a></li>
+                        <li><a href="#partners" class="anchor">Партнери</a></li>
+                        <li><a href="#projects" class="anchor">Проекти</a></li>
+                        <li><a href="#callback" class="anchor">Зворотний зв'язок</a></li>
+                        <li><a href="#clients" class="anchor">Клієнтам</a></li>
+                        <ul class="mobileshow phone">
+                            <li><a href="tel:0686844484">068 684 44 84 <span>Хмельницький</span></a></li>
+                            <li><a href="tel:0686844484">068 684 44 84 <span>Львів</span></a></li>
+                        </ul>
+                    </ul>
+
+                </div>
+                <div class="burger">
+                    <img src="img/menu.svg" alt="menu">
+                </div>
+                <div class="totop">
+                    <span>
+                        <img src="img/arrows-icon.svg" alt="totop">
+                    </span>
+                </div>
+                <div class="signin">
+                    <a href="#">Вхід</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="mainslider">
+            <div class="animation-line odd"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/slide1.png" alt="slide">
+                    </div>
+                    <div class="swiper-slide"><img src="img/slide2.png" alt="slide"></div>
+                    <div class="swiper-slide"><img src="img/slide3.png" alt="slide"></div>
+                    <div class="swiper-slide"><img src="img/slide4.png" alt="slide"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="welcome">
+            <div class="container-fluid">
+                <h1 data-aos="fade-up" data-aos-duration="2000">"ТРАК-ЛІДЕР"<br>
+                    ВІТАЄ ВАС НА САЙТІ НАШОЇ КОМПАНІЇ</h1>
+                <a href="#" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="300">В магазин</a>
+
+                <div id="scene">
+                    <div data-depth="0.2"></div>
+                    <div data-depth="-0.2"></div>
+                </div>
+
+                <div class="welcome__amimation">
+                    <div class="circle"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <div class="container-fluid">
+                <h3 data-aos="fade-up-left" data-aos-duration="2000">Переваги</h3>
+                <p class="subtitle" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="300">
+                    Формуючи нашу пропозицію,<br>
+                    ми перш за все звертаємо увагу на такі важливі фактори:
+                </p>
+                <div class="row no-gutters benefits__boxes">
+                    <div class="benefits__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+                        <div class="picbox">
+                            <img src="img/benefits1.svg" alt="img">
+                        </div>
+                        <p class="textbox">
+                            Широкий<br>
+                            асортимент
+                        </p>
+                    </div>
+                    <div class="benefits__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+                        <div class="picbox">
+                            <img src="img/benefits2.svg" alt="img">
+                        </div>
+                        <p class="textbox">
+                            Гарантована<br>
+                            якість
+                        </p>
+                    </div>
+                    <div class="benefits__box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">
+                        <div class="picbox">
+                            <img src="img/benefits3.svg" alt="img">
+                        </div>
+                        <p class="textbox">
+                            Приваблива<br>
+                            ціна
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners" id="partners">
+            <img class="partners__trigbg" src="img/figurebg.png" alt="bg">
+            <div class="container-fluid">
+                <h3 data-aos="fade-up-left" data-aos-duration="2000">Партнери</h3>
+                <p class="subtitle" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="300">
+                    Працюємо разом з найкращими!
+                </p>
+                <div class="partners__sect row">
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                        <img src="img/partner1.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="img/partner2.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="img/partner3.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="img/partner4.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
+                        <img src="img/partner5.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                        <img src="img/partner4.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="700">
+                        <img src="img/partner6.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="800">
+                        <img src="img/partner2.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
+                        <img src="img/partner5.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000">
+                        <img src="img/partner3.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1100">
+                        <img src="img/partner6.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1200">
+                        <img src="img/partner1.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <img src="img/partner4.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1400">
+                        <img src="img/partner3.png" alt="img">
+                    </div>
+                    <div class="partners__pic" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1500">
+                        <img src="img/partner5.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="projects__section">
+                <div class="row no-gutters">
+                    <nav>
+                        <p class="title" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease">Проекти
+                        </p>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist" data-aos="fade-right"
+                            data-aos-duration="2000" data-aos-delay="400" data-aos-easing="ease">
+                            <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                                aria-controls="nav-home" aria-selected="true">СТО</a>
+                            <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                                aria-controls="nav-profile" aria-selected="false">Шиномонтаж</a>
+                            <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                                aria-controls="nav-contact" aria-selected="false">Дистрибуція запчастин</a>
+                            <a class="nav-link" id="tab4" data-toggle="tab" href="#nav-tab4" role="tab"
+                                aria-controls="nav-tab4" aria-selected="false">Перевезення</a>
+                            <a class="nav-link" id="tab5" data-toggle="tab" href="#nav-tab5" role="tab"
+                                aria-controls="nav-tab5" aria-selected="false">Експедиція</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent" data-aos="fade-left" data-aos-duration="2000"
+                        data-aos-easing="ease">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <p>
+                                Сервіс компанії «Трак-Лідер» здійснює послуги по діагностиці, ремонту та обслуговуванню
+                                вантажних автомобілів європейського виробництва (MAN, MERCEDES, VOLVO, DAF, RENAULT,
+                                SCANIA, IVECO), автобусів, причепів та напівпричепів.<br><br>
+
+                                Працюючи на ринку понад 10 років, було зібрано команду майстрів своєї справи. З 2012
+                                року нас обрано учасником європейської мережі сервісів “TOP TRUCK” www.top-truck.com.ua,
+                                що дає можливість забезпечити якісне та професійне обслуговування.<br><br>
+
+                                <b>Перелік послуг, що надаються:</b><br><br>
+
+                                Діагностика стану шасі, двигуна та трансмісії.<br><br>
+
+                                Лазерний розвал сходження (R22.5 та R19.5).<br><br>
+
+                                <b>Ремонт дизельних двигунів:</b><br><br>
+
+                                Діагностика несправностей (включаючи електронні системи);
+                                Перевірка, заміна, вирівнювання блоку циліндрів під гільзи (нарізка блоку);
+                                Зняття, розбирання, дефектація силового агрегату;
+                                Заміна турбокомпресора, інтеркулера, перевірка герметичності і тиску наддуву;
+                                Перевірка, правка, шліфування колінвалу в ремонтні розміри;
+                                Ремонт клапанів і їх місць установки;
+                                Ремонт, шліфування головок блоку циліндрів;
+
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            Second tab</div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            Tab 3</div>
+                        <div class="tab-pane fade" id="nav-tab4" role="tabpanel" aria-labelledby="tab4">
+                            Tab 4</div>
+                        <div class="tab-pane fade" id="nav-tab5" role="tabpanel" aria-labelledby="tab5">
+                            Tab 5</div>
+                    </div>
+                </div>
+                <div class="projects__animationsect">
+                    <img class="fig1" src="img/gear-160.svg" alt="img">
+                    <img class="fig2" src="img/gear-140.svg" alt="img">
+                    <img class="fig3" src="img/gear-120.svg" alt="img">
+                </div>
+            </div>
+        </section>
+
+        <section class="questions" id="callback">
+            <div class="container-fluid">
+                <h3 data-aos="fade-up-left" data-aos-duration="2000">Виникли запитання?</h3>
+                <p class="subtitle" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="300">Заповніть
+                    форму нижче, невдовзі ми зв'яжемося з Вами</p>
+                <div class="container-sect">
+                    <form class="questions__form">
+                        <div class="row">
+                            <div class="namefield inpfield" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="200">
+                                <label for="questions__name">Ім’я <span>*</span></label>
+                                <input id="questions__name" type="text" placeholder="Ваше ім’я">
+                            </div>
+                            <div class="phonefield inpfield" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="400">
+                                <label for="questions__tel">Телефон <span>*</span></label>
+                                <input id="questions__tel" type="tel" placeholder="Номер телефону">
+                            </div>
+                            <div class="emailfield inpfield" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="600">
+                                <label for="questions__mail">Електронна адреса <span>*</span></label>
+                                <input id="questions__mail" type="email" placeholder="Email">
+                            </div>
+                            <div class="btnfield inpfield" data-aos="fade-up" data-aos-duration="2000"
+                                data-aos-delay="800">
+                                <button type="submit">
+                                    <span>Надіслати</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="forclients" id="clients">
+            <div class="container-sect">
+                <div class="row no-gutters">
+                    <div class="title-sect">
+                        <p class="title" data-aos="fade-up-right" data-aos-duration="2000" data-aos-easing="ease">
+                            Клієнтам</p>
+                    </div>
+                    <div class="terms-of-coop">
+                        <div class="row no-gutters">
+                            <div class="col-6">
+                                <div class="coop__box" data-aos="fade-up-left" data-aos-duration="2000"
+                                    data-aos-delay="200" data-aos-easing="ease">
+                                    <p class="title"><span>Умови співпраці</span></p>
+                                    <p class="descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet risus
+                                        ac felis imperdiet dapibus et nec eros. Mauris eleifend pellentesque arcu quis
+                                        laoreet. Suspendisse sit amet leo ligula. Vestibulum lectus lectus, viverra nec
+                                        augue non, volutpat semper felis. Aliquam molestie elit ex, id pharetra quam
+                                        tristique ac....
+                                    </p>
+                                    <a href="#">Детальніше</a>
+                                </div>
+                            </div>
+                            <div class="col-6" data-aos="fade-up-left" data-aos-duration="2000" data-aos-delay="400"
+                                data-aos-easing="ease">
+                                <div class="coop__box">
+                                    <p class="title"><span>Умови співпраці</span></p>
+                                    <p class="descr">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet risus
+                                        ac felis imperdiet dapibus et nec eros. Mauris eleifend pellentesque arcu quis
+                                        laoreet. Suspendisse sit amet leo ligula. Vestibulum lectus lectus, viverra nec
+                                        augue non, volutpat semper felis. Aliquam molestie elit ex, id pharetra quam
+                                        tristique ac....
+                                    </p>
+                                    <a href="#">Детальніше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dilivery">
+            <div class="container-sect">
+                <h3 data-aos="fade-up" data-aos-duration="2000">Безкоштовна доставка замовлень</h3>
+                <img class="dilivery-anim" src="img/gear-160.svg" alt="img">
+            </div>
+            <div class="footer-sect">
+                <div class="row no-gutters">
+                    <div class="col-md-6 rightalign">
+                        <div class="footer-sect__info" data-aos="fade-right" data-aos-duration="2000">
+                            <p class="footer-sect__title"> на суму 2000 грн</p>
+                            <p class="footer-sect__subtitle">Агенствами</p>
+                            <p class="footer-sect__descr">Гюнсел, Нова Пошта, Делівері, Нічний Експрес і САТ</p>
+                            <a href="#">На сайт</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-sect__pic" data-aos="fade-left" data-aos-duration="2000"
+                            data-aos-delay="300">
+                            <img src="img/footerpic.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
+
+<!-- 1760 -->
